@@ -1,1 +1,18 @@
-
+ALGORITMA PENYELESAIAN SPL 3 VARIABEL MENGGUNAKAN METODE ELIMINASI GAUSS-JORDAN
+1. Tujuan 
+Menyelesaikan sistem persamaan linear dengan tiga variabel yaitu  \(x_1\),\(x_2\), dan \(x_3\), menggunakan mwtode eliminasi Gauss-Jordan sehingga diperoleh nilai setiap variabel.
+2. Langkah - langkah algoritma 
+1. Mulai
+2. Masukkan koefisien dari tiga persamaan linear, yaitu \(a 1, b 1, c 1, d 1\), \(a 2, b 2, c 2, d 2\), dan \(a 3, b 3, c 3, d 3\).
+3. Bentuk matriks augmented berukuran 3 x 4
+4. Periksa elemen pivot pada kolom pertama
+5. Jika elemen pivot bernilai nol, tukar baris dengan baris di bawahnya yang memiliki elemen tidak nol
+6. Bagi seluruh elemen pada baris pivot dengan nilai pivot sehingga nilai pivot menjadi 1
+7. Eliminasi elemen lain pada kolom pertama hingga bernilai nol
+8. Lanjutkan proses yang sama pada kolom kedua dan ketiga
+9. Periksa hasil akhir matriks
+- jika terbentuk matriks identitas pada bagian koefesien, solusi dapat di baca langsung
+- jika terdapat baris yang menunjukan pertentangan, sistem tidak memiliki solusi
+- jika terdapat variabel bebas, sistem memiliki banyak solusi
+10. Tampilkan nilai  \(x_1\),\(x_2\), dan \(x_3\)
+11. Selesai
